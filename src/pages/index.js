@@ -14,7 +14,7 @@ const IndexPage = () => {
   `)
   return (
     <Layout>
-      <h1>Hello</h1>
+      <h1>Hello World</h1>
       <h2>My Name is {data.site.siteMetadata.author}</h2>
       <p>Need a developer? <Link to="/contact">Contact me.</Link></p>
     </Layout>

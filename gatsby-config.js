@@ -7,7 +7,7 @@
 module.exports = {
   /* Your site config here */
   siteMetadata: {
-    title: 'Gatsby learning Bootcamp',
+    title: 'Gatsby learning Bootcamp!',
     author: 'Rohit Rathi',
     description: 'some type of description goes here'
   },

@@ -4,7 +4,8 @@ import React from 'react'
 import headerStyles from '../styles/header.module.scss'
 
 const Navbar = () => {
-    const data = useStaticQuery(graphql`
+//tag Template literal
+    const data = useStaticQuery(graphql` 
     query{
         site{
           siteMetadata{
