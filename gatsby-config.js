@@ -6,5 +6,19 @@
 
 module.exports = {
   /* Your site config here */
-  plugins: [],
+  siteMetadata: {
+    title: 'Gatsby learning Bootcamp',
+    author: 'Rohit Rathi',
+    description: 'some type of description goes here'
+  },
+  plugins: [
+    'gatsby-plugin-sass',
+    {
+      resolve: 'gatsby-source-filesystem',
+      options: {
+        name: 'src',
+        path: `${__dirname}/src/`,
+      }
+    }
+  ],
 }
