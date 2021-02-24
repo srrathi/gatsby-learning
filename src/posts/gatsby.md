@@ -1,9 +1,9 @@
 ---
-title:"The Great Gatsby Bootcamp learning"
-date:"2021-02-22"
+title: "The Great Gatsby Bootcamp learning"
+date: "2021-02-22"
 ---
 
-I'm learning Gatsby 
+I'm learning Gatsby!
 
 ## Topics covered
 

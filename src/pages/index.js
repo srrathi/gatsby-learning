@@ -3,7 +3,7 @@ import { graphql, Link, useStaticQuery } from 'gatsby'
 import Layout from "../components/layout"
 
 const IndexPage = () => {
-  const data=useStaticQuery(graphql`
+  const data = useStaticQuery(graphql`
   query{
     site{
       siteMetadata{
