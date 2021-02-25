@@ -2,3 +2,29 @@
     list-style-type: none;
     margin: 0;
 }
+.post{
+    margin: 1rem 0;
+    background: rgb(1, 179, 185);
+    padding: 1rem;
+    color: #fff;
+
+    a{
+        background: rgb(223, 223, 223);
+        padding: 1rem 1.5rem;
+        text-decoration: none;
+        margin: 1rem;
+        border-radius: 5%;
+        color: #000;
+    }
+    a:hover{
+        background: rgb(204, 204, 204);
+    }
+    h2{
+        margin-bottom: 0;
+    }
+    p{
+        margin-bottom: 1.5rem;
+        font-size: .8rem;
+        font-style: italic;
+    }
+}
